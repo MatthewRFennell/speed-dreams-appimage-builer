@@ -73,7 +73,8 @@ AppDir:
     - libxss1
     - libxxf86vm1
     - libzstd1
-    - libopenscenegraph-3.4-131
+    - libopenscenegraph160
+    - libopengl0
     exclude: []
   files:
     exclude:
