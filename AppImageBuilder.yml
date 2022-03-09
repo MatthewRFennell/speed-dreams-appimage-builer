@@ -73,7 +73,11 @@ AppDir:
     - libxss1
     - libxxf86vm1
     - libzstd1
-    - libopenscenegraph-3.4-131
+    - libopenscenegraph100v5
+    - freeglut3
+    - libgl1-mesa-glx
+    - libgl1-mesa-dri
+    - libgl1
     - libopengl0
     exclude: []
   files:
