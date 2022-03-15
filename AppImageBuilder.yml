@@ -79,6 +79,7 @@ AppDir:
     - libgl1-mesa-dri
     - libgl1
     - libopengl0
+    - mesa-utils
     exclude: []
   files:
     exclude:
