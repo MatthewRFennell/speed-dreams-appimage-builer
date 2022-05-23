@@ -44,7 +44,7 @@ AppDir:
     - libglu1-mesa
     - libhogweed5
     - libjack-jackd2-0
-    - libjpeg-turbo8
+    - libjpeg62
     - libllvm10
     - liblz4-1
     - liblzma5
