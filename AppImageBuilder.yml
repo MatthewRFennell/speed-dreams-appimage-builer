@@ -6,7 +6,7 @@ script: |
     rm -rf AppDir
     mkdir AppDir
 
-    cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DSD_BINDIR=/usr/bin -DSD_DATADIR=/usr/share/speed-dreams-2 -DSD_LOCALDIR:STRING=~/.speed-dreams-2 -DSD_LIBDIR=/usr/lib/speed-dreams-2 -DOPTION_OFFICIAL_ONLY=ON .
+    cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DSD_BINDIR=/usr/bin -DSD_DATADIR=/usr/share/speed-dreams-2 -DSD_LOCALDIR:STRING=~/.speed-dreams-2 -DSD_LIBDIR=/usr/lib/speed-dreams-2 -DOPTION_OFFICIAL_ONLY=ON -D OPTION_TRACKEDITOR=OFF .
     make install DESTDIR=AppDir
     mkdir -p AppDir/usr/share/icons
     install -m644 AppDir/usr/share/speed-dreams-2/data/icons/icon.svg AppDir/usr/share/icons/speed-dreams.svg
