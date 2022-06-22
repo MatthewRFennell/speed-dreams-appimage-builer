@@ -22,11 +22,13 @@ AppDir:
     exec_args:  "-dd '$APPDIR/usr/share/speed-dreams-2' -ld '$APPDIR/usr/lib/speed-dreams-2' $@"
   apt:
     arch: amd64
-    allow_unauthenticated: true
     sources:
     - sourceline: deb http://deb.debian.org/debian/ bullseye main
+      key_url: 'https://ftp-master.debian.org/keys/release-11.asc'
     - sourceline: deb http://security.debian.org/debian-security bullseye-security main
+      key_url: 'https://ftp-master.debian.org/keys/archive-key-11-security.asc'
     - sourceline: deb http://deb.debian.org/debian/ bullseye-updates main
+      key_url: 'https://ftp-master.debian.org/keys/archive-key-11.asc'
     include:
     - libopenal1
     - libvorbis0a
