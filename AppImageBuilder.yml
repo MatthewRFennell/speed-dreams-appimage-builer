@@ -30,16 +30,45 @@ AppDir:
     - sourceline: deb http://deb.debian.org/debian/ bullseye-updates main
       key_url: 'https://ftp-master.debian.org/keys/archive-key-11.asc'
     include:
-    - libopenal1
-    - libvorbis0a
+    - libcurl3-gnutls
+    - libelf1
     - libenet7
-    - libsdl2-2.0-0
-    - libcurl4
-    - libopenscenegraph161
-    - libpng16-16
-    - libjpeg62-turbo
     - libexpat1
+    - libgcrypt20
+    - libglu1-mesa
+    - libhogweed6
+    - libjack-jackd2-0
+    - libjpeg62-turbo
+    - libllvm11
+    - liblz4-1
+    - liblzma5
+    - libnss-mdns
+    - libopenal1
     - libplib1
+    - libpng16-16
+    - libsasl2-2
+    - libsdl2-2.0-0
+    - libsdl2-mixer-2.0-0
+    - libsensors5
+    - libsystemd0
+    - libudev1
+    - libvorbis0a
+    - libvorbisfile3
+    - libwayland-egl1
+    - libxau6
+    - libxcb-sync1
+    - libxdamage1
+    - libxdmcp6
+    - libxext6
+    - libxfixes3
+    - libxinerama1
+    - libxrender1
+    - libxshmfence1
+    - libxss1
+    - libxxf86vm1
+    - libzstd1
+    - libopengl0
+    - libopenscenegraph161
     exclude: []
   files:
     exclude:
