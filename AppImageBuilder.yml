@@ -17,7 +17,7 @@ AppDir:
     id: org.speed.dreams
     name: speed-dreams
     icon: speed-dreams
-    version: "jenkins-latest-trunk"
+    version: "latest-trunk"
     exec: usr/bin/speed-dreams-2
     exec_args:  "-dd '$APPDIR/usr/share/speed-dreams-2' -ld '$APPDIR/usr/lib/speed-dreams-2' $@"
   apt:
