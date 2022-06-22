@@ -15,7 +15,7 @@ AppDir:
   path: ./AppDir
   app_info:
     id: org.speed.dreams
-    name: Speed Dreams
+    name: speed-dreams
     icon: speed-dreams
     version: "jenkins-latest-trunk"
     exec: usr/bin/speed-dreams-2
