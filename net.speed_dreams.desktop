@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Speed Dreams
+GenericName=Racing Game
+Comment=Motorsport Simulator featuring high-quality 3D graphics and an accurate physics engine
+Icon=speed-dreams
+Exec=usr/bin/speed-dreams-2
+Terminal=false
+Categories=Game;SportsGame;
+Keywords=race;racing;drive;driving;racer;driver;track;motorsport;game;
