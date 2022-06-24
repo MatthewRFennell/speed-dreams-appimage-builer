@@ -1,6 +1,6 @@
 # Speed Dreams AppImage builder
 This repository contains everything needed to generate a Speed Dreams AppImage
-as part of the Jenkins build.
+as part of the [Jenkins build](https://speed-dreams.fennell.dev/job/speed-dreams/).
 
 # Translations
 Many thanks to the following for your translations:
