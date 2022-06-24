@@ -17,6 +17,6 @@ submit them through any of the following channels:
 
 * Raise a PR or an issue to this repository
 * Submit a ticket or forum post on the [Speed Dreams SourceForge page](https://sourceforge.net/projects/speed-dreams/)
-* Send us a message on the Speed Dreams XMPP/Matrix chat - more details [here](https://www.speed-dreams.net/about-speed-dreams/)
+* Send us a message on the Speed Dreams XMPP/Matrix chat - [more details here](https://www.speed-dreams.net/about-speed-dreams/)
 
 More information about the project can be found at the [Speed Dreams homepage](https://www.speed-dreams.net/).
