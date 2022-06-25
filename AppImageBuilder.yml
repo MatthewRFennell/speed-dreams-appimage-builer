@@ -81,6 +81,6 @@ AppDir:
     - usr/share/doc/*/TODO.*
     - usr/include
 AppImage:
+  update-information: 'zsync|https://speed-dreams.fennell.dev/job/speed-dreams/lastSuccessfulBuild/artifact/build/speed-dreams-latest-trunk-x86_64.AppImage.zsync'
   arch: x86_64
-  update-information: guess
   sign-key: None
